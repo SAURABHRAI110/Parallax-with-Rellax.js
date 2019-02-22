@@ -1,0 +1,50 @@
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.section1 {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+
+.upsidedown-container {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+
+}
+
+.upsidedown>img {
+    width: 100%;
+    position: relative;
+
+}
+
+.upsidedown {
+    padding-left: 2px;
+}
+
+.text1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 10%;
+}
+
+.text2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    position: absolute;
+    z-index: 2;
+    color: white;
+}
